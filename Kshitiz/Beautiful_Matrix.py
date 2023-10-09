@@ -7,9 +7,6 @@ for i in range(5):
 if (n[0]!=2) or (n[1]!=2) :
 	x=2-n[0]
 	y=2-n[1]
-	ans=(abs(x)+abs(y))
+	print(abs(x)+abs(y)
 else:
-	ans=0
-
-
-print(ans)
+	print(0)
