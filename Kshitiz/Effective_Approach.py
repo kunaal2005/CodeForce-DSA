@@ -35,10 +35,9 @@ k=list(map(int,input().split()))
 for j in range(m):
 	q=k[j]
 	a+=arr[q]
-	b+=n-arr[q]+1
+	b+=n-arr[q]+1d1
 
 print(a,b)
-
 
 
 # # l=list(map(int,input().split()))
