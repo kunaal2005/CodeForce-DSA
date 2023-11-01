@@ -1,3 +1,5 @@
+#FIRST METHOD
+
 a,b,c=input(),input(),input()
 x,y,z=len(a),len(b),len(c)
 l=list(a+b)
@@ -12,6 +14,18 @@ if z==x+y:
 else:
 	print('NO')
 
-# SANTACLAUS
-# DEDMOROZ
-# SANTAMOROZDEDCLAUS
+#SECOND METHOD
+
+# a,b,c=input(),input(),input()
+# x,y,z=len(a),len(b),len(c)
+# if z==x+y:
+# 	ans='YES'
+# 	l=sorted(list(a+b))
+# 	L=sorted(list(c))
+# 	for i in range(z):
+# 		if L[i]!=l[i]:
+# 			ans='NO'
+# 			break
+# else:
+# 	ans='NO'
+# print(ans)

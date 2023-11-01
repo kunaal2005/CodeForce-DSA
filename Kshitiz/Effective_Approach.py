@@ -40,7 +40,6 @@ for j in range(m):
 print(a,b)
 
 
-
 # # l=list(map(int,input().split()))
 # # a,b=0,0
 # # x=int(input())
