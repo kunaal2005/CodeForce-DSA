@@ -2,24 +2,13 @@
 using namespace std;
 int main()
 {
-    int n, ans;
-    cin >> n >> ans;
-    int arr[n];
-    int j = 0;
-    for (int i = 1; i <= n; i++)
+    long long n, k;
+    cin >> n >> k;
+    if(k<=(n+1)/2)
     {
-        if (i % 2 != 0)
-        {
-            arr[j] = i;
-            j++;
-        }
-        else
-        {
-            arr[(n/2)+j]=i;
-            j++;    
-        }
+        cout << k*2-1;
     }
-    cout << arr[ans-1];
+    else cout << (k-(n+1)/2)*2;
     return 0;
 }
 
