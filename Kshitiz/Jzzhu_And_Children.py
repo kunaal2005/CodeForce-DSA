@@ -7,5 +7,3 @@ for i in range(n):
 		a.append(a[i])
 		a.pop(i)
 		
-
-	
