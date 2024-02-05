@@ -14,19 +14,3 @@ for x in range(1,6):
 		# print(x)
 		a+=1
 print(a)
-
-
-
-
-
-# f=(sm-1)%(n+1) 
-
-# print('pos',pos)
-
-# for x in range(1,6):
-# 	j=(sm+x)%pos
-# 	print('j',j)
-# 	if j!=0:
-# 		print('x',x)
-# 		a+=1
-# print(a)
